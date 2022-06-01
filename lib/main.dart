@@ -210,6 +210,8 @@ class ScaffoldTest extends StatelessWidget {
 
 /// Displays our [FormKeyboardActions] nested in a [AlertDialog].
 class DialogTest extends StatelessWidget {
+  const DialogTest({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
