@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:flutter_utils/pages/bottom_bar/persistent_bottom/persistent_bottom_page.dart';
 import 'package:flutter_utils/pages/dialog/bottom_keyboard_page.dart';
-import 'package:flutter_utils/pages/dialog/dialog_page.dart';
 import 'package:flutter_utils/pages/dialog_menu/company_menu.dart';
 import 'package:flutter_utils/pages/download_demo/al_download/al_download_page.dart';
 import 'package:flutter_utils/pages/grid_view/grid_page.dart';
@@ -37,6 +36,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    String imageName = 'image_picker_182D8ED1-ABB7-4FFF-B111-B14D8C0DF00D-72569-00000D1BB2CA61DD.jpg';
+    imageName = imageName.substring(imageName.length-20,imageName.length);
+    String imagenFormat = imageName.substring(imageName.lastIndexOf(".") , imageName.length);
+
+    imageName = imageName.replaceAll(imagenFormat, '');
+    debugPrint('imageName --- $imageName');
+
     return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -113,13 +120,6 @@ class MyApp extends StatelessWidget {
                   ),
                   const SizedBox(
                     height: 15,
-                  ),
-                  ElevatedButton(
-                    child: const Text("FoldA"),
-                    onPressed: () => _openWidget(
-                      myContext,
-                      const FoldA(),
-                    ),
                   ),
                   //
                   ElevatedButton(
