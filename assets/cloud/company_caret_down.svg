@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>caret-down-filled</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的办公-企业网盘" transform="translate(-52.000000, -113.000000)" fill="#666666" fill-rule="nonzero">
+            <g id="caret-down-filled" transform="translate(52.000000, 113.000000)">
+                <rect id="矩形" opacity="0" x="0" y="0" width="12" height="12"></rect>
+                <path d="M9.8484375,3.515625 L2.1515625,3.515625 C1.92070312,3.515625 1.79179687,3.759375 1.93476562,3.92578125 L5.78320312,8.38828125 C5.89335937,8.51601562 6.10546875,8.51601562 6.21679688,8.38828125 L10.0652344,3.92578125 C10.2082031,3.759375 10.0792969,3.515625 9.8484375,3.515625 Z" id="路径"></path>
+            </g>
+        </g>
+    </g>
+</svg>

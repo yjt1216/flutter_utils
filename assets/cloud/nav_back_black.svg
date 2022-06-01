@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>left-outlined</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的-个人资料" transform="translate(-16.000000, -55.000000)" fill-rule="nonzero">
+            <g id="left-outlined" transform="translate(16.000000, 55.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M16.96875,5.11640625 L16.96875,3.3046875 C16.96875,3.14765625 16.7882812,3.0609375 16.6664063,3.15703125 L6.10078125,11.409375 C5.71640625,11.709375 5.71640625,12.2882812 6.10078125,12.5882812 L16.6664063,20.840625 C16.790625,20.9367187 16.96875,20.85 16.96875,20.6929687 L16.96875,18.88125 C16.96875,18.7664062 16.9148438,18.65625 16.8257812,18.5859375 L8.38828125,12 L16.8257812,5.41171875 C16.9148437,5.34140625 16.96875,5.23125 16.96875,5.11640625 Z" id="路径" fill="#434447"></path>
+            </g>
+        </g>
+    </g>
+</svg>

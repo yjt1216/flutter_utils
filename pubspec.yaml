@@ -56,6 +56,29 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/tab/
+    - assets/cloud/
+    - assets/healing/
+    - assets/chat/
+    - assets/icons/
+    - assets/images/
+    - assets/wechat/
+    - assets/wechat/home/
+    - assets/wechat/contacts/
+    - assets/wechat/contacts/add/
+    - assets/wechat/discover/
+    - assets/wechat/discover/friends/
+    - assets/wechat/mine/
+    - assets/
+
+    #假数据
+    - lib/res/china.json
+    - lib/res/wx_contacts.json
+    - lib/res/wx_motion_top.json
+    - lib/res/wx_friends_circle.json
+    - lib/res/dynamic_comment.json
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
