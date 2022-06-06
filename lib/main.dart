@@ -11,7 +11,9 @@ import 'package:flutter_utils/pages/keyboard_page/sample.dart';
 import 'package:flutter_utils/pages/keyboard_page/sample2.dart';
 import 'package:flutter_utils/pages/keyboard_page/sample3.dart';
 import 'package:flutter_utils/pages/keyboard_page/sample4.dart';
+import 'package:flutter_utils/pages/web_socket/web_socket_page.dart';
 import 'package:get/get.dart';
+import 'package:web_socket_channel/io.dart';
 
 
 void main() {
@@ -112,10 +114,10 @@ class MyApp extends StatelessWidget {
                     height: 15,
                   ),
                   ElevatedButton(
-                    child: const Text("Custom Sample 4"),
+                    child: const Text("Web Socket Page"),
                     onPressed: () => _openWidget(
                       myContext,
-                      Sample4(),
+                      WebSocketPage(channel: IOWebSocketChannel.connect("ws://121.4.189.24:8088"),),
                     ),
                   ),
                   const SizedBox(
