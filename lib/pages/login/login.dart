@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_utils/components/tab_bar/tab_bar.dart';
 import 'package:flutter_utils/pages/login/login_form.dart';
 import 'package:formz/formz.dart';
+import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -60,6 +62,7 @@ class _LoginState extends State<LoginPage> {
   Future<void> _submitForm() async {
     await Future<void>.delayed(const Duration(seconds: 1));
 
+    Get.off(()=>PersistentTabBarPage(menuScreenContext: context,));
   }
   void _resetForm(){
     _key.currentState!.reset();

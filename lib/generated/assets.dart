@@ -2,6 +2,9 @@
 class Assets {
   Assets._();
 
+  static const String naviBackBlack = 'assets/images/navi/back_black.svg';
+  static const String naviBackWhite = 'assets/images/navi/back_white.svg';
+  static const String naviRightAdd = 'assets/images/navi/right_add.svg';
   static const String tabbarTabCloud = 'assets/images/tabbar/tab_cloud.svg';
   static const String tabbarTabCloudSelected = 'assets/images/tabbar/tab_cloud_selected.svg';
   static const String tabbarTabContacts = 'assets/images/tabbar/tab_contacts.svg';
