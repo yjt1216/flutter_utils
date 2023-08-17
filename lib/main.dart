@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_utils/pages/login/login.dart';
 
+import 'components/log/console_print.dart';
+import 'components/log/log_config.dart';
+import 'components/log/log_manager.dart';
+
 void main() {
+
   runApp(const MyApp());
 }
 
@@ -34,7 +39,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
+    /* 打印日志 */
+    LogManager.init(
+        config: LogConfig(enable: true,globalTag: "TAG",stackTraceDepth: 5),
+        printers: [ConsolePrint()]
+    );
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
